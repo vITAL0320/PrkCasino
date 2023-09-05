@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.background {
+    background: linear-gradient(to bottom, #224056, #1D7D92);
+    min-height: 100vh;
+    width: 100%;
+}
+.cap {
+    background-color: #5A7FA0;
+    width: 100%;
+    height: 75px;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0px 1px 10px 0px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cap-image {
+    width: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 15px;
+    margin-left: 15px;
+}
+.title-navigate {
+    color: white;
+    font-size: 1.5em;
+    margin-left: 10px;
+    font-family: 'Calibri';
+}
+.alignText {
+    text-align: right;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Calibri';
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.div-display {
+    display: flex;
+}
