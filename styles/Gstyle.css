@@ -72,3 +72,17 @@ body {
     width: 100%;
     height: 20%;
 }
+
+.cap-cat {
+    background-color: black;
+    color: white;
+    width: 65%;
+    margin: auto;
+}
+
+.back-cat img {
+    width: 65%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
