@@ -3,7 +3,7 @@ body {
     margin: 0px;
 }
 .background {
-    background: linear-gradient(to bottom, #224056, #1D7D92);
+    background: linear-gradient(to bottom, #224056, #00D1FF);
     min-height: 100vh;
     width: 100%;
 }
@@ -51,7 +51,16 @@ a:hover {
 .div-display {
     display: flex;
 }
-
+.deposit_in_cap  {
+    padding: 15px;
+    background-color: #ff8238;
+    color: #fff;
+    border: none;
+    border-radius: 20px; 
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.13), 0 10px 10px rgba(0,0,0,0.13);
+}
 .slots {
     text-align: center;
     font-size: 35px;
@@ -120,5 +129,24 @@ a:hover {
     width: 65%;
     margin: auto;
     justify-content: center;
+    display: flex;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 1px solid #fff;
+    width: 95%;
+    margin: 0 auto;
+}
+.footer img {
+    pointer-events: none;
+    display: inline-block;
+    margin: 15px;
+}
+.footer img p {
+    font-size: 8px;
+    color: #FFFFFF;
     display: flex;
 }

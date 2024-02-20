@@ -56,13 +56,14 @@ body {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-color: #302d28;
+    background-color: #214a60;
+    opacity: 0.8;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.2);
     border-radius: .3rem;
     outline: 0;
-    height: 450px;
+    height: 500px;
 }
 @media (min-width: 768px) {
   .modal-content {
@@ -125,7 +126,31 @@ body {
     align-self: center;
     margin-top: 3vh;
 }
+.modal-body::-webkit-scrollbar {
+    width: 0;
+  }
 input {
     width: 250px;
     height: 30px;
+    outline: none;
   }
+button  {
+    margin-top: 100px;
+    padding: 15px;
+    background: #2a6f43;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+  }
+button:hover {
+    opacity: 0.6;
+}
+.message_warning {
+    border: 2px solid #cc8600;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    align-self: center;
+    font-weight: bold;
+    width: 90%;
+}
