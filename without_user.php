@@ -124,8 +124,8 @@ if ($_SESSION['user']) {
         <img src="./assets/footer/PRKLogo.png" />
         <img src="./assets/footer/VSCodeLogo.png" />
         <img src="./assets/footer/UFCLogo.png" />
-        <p>По соглашению с Bednov.V.A и Kozlov.V.V., игровая лицензия № 2024/PRK, PRKCasino находится под управлением компанией OOO “KringeAreHype”, Tankistov 46, Perm</p>
     </div>
+    <p>По соглашению с Bednov.V.A и Kozlov.V.V., игровая лицензия № 2024/PRK, PRKCasino находится под управлением компанией OOO “KringeAreHype”, Tankistov 46, Perm</p>
 </body>
 <script>
     // Получаем ссылки на кнопки навигации
