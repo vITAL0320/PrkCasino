@@ -52,12 +52,12 @@ a:hover {
     display: flex;
 }
 .deposit_in_cap  {
-    padding: 15px;
+    padding: 5px;
     background-color: #ff8238;
     color: #fff;
     border: none;
     border-radius: 20px; 
-    font-size: 18px;
+    font-size: 26px;
     font-weight: bold;
     box-shadow: 0 14px 28px rgba(0,0,0,0.13), 0 10px 10px rgba(0,0,0,0.13);
 }
@@ -107,16 +107,6 @@ a:hover {
     justify-content: center;
     background: linear-gradient(to bottom, #ac8a40, #503335, #09181e);
 }
-.first_img img {
-    width: 99%;
-    height: 25%;
-    max-height: 600px;
-    max-width: 1400px;
-    border: 1px solid #080800;
-    border-radius: 10px;
-    box-shadow: 0 0 30px 3px #0d1a1f;
-
-}
 
 .cap-cat {
     background-color: black;
@@ -145,7 +135,7 @@ a:hover {
     display: inline-block;
     margin: 15px;
 }
-.footer img p {
+.footer p {
     font-size: 8px;
     color: #FFFFFF;
     display: flex;

@@ -1,0 +1,60 @@
+
+.carousel-container {
+  width: 100%;
+  height: 25%;
+  max-height: 600px;
+  max-width: 1500px;
+  border: 1px solid #080800;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 3px #0d1a1f;
+}
+.carousel_items {
+    display: flex;
+    overflow: hidden;
+    
+  }
+  .carousel_item {
+    position: relative;
+    min-width: 100%;
+    height: 405px;
+    transition: all 0.5s linear;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+  } 
+
+.navigation_banner {
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: calc(1.2rem + 0.1vw);
+    font-weight: bolder;
+    height: 50px;
+    width: 50px;
+    margin-top: 180px;
+}
+
+.item1 {
+  background-image: url("../assets/BannerWithNews/Vasya_Gosling.png");
+  border-radius: 8px;
+}
+  .item2 {
+    background-image: url("../assets/BannerWithNews/Banner_1.png");
+    border-radius: 8px;
+  }
+  .item3 {
+    background-image: url("../assets/BannerWithNews/Banner_2.png");
+    border-radius: 8px;
+  }
+  .item4 {
+    background-image: url("../assets/BannerWithNews/Banner_3.png");
+    border-radius: 8px;
+  }
+  .item5 {
+    background-image: url("../assets/BannerWithNews/Banner_4.png");
+    border-radius: 8px;
+  }
+  

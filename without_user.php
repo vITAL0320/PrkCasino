@@ -12,6 +12,7 @@ if ($_SESSION['user']) {
     <meta charset="utf-8">
     <link rel="stylesheet" href="../styles/Gstyle.css">
     <link rel="stylesheet" href="../styles/Modal-Window.css">
+    <link rel="stylesheet" href="./styles/Banner-Style.css">
 </head>
 
 <body class="background">
@@ -41,10 +42,10 @@ if ($_SESSION['user']) {
                             </div>
                             <div class="modal-body">
                                 <h6 style="padding:0px; margin: 0px;">Email/Логин</h6>
-                                <input type="text" placeholder="login" name="login" />
+                                <input type="text" placeholder="Логин или почта" name="login" />
 
                                 <h6 style="padding:0px; margin:0px;">Пароль</h6>
-                                <input type="password" placeholder="pass" name="pass" />
+                                <input type="password" placeholder="Пароль" name="pass" />
                                 <button type="submit" name="Sign-In" style="display: block; margin: 10px auto;">ВОЙТИ</button>
                             </div>
                             <!-- Включение сессии для отображения предупреждения о ошибке в вводе -->
@@ -74,12 +75,12 @@ if ($_SESSION['user']) {
                                 <h6 style="padding:0px; margin: 0px;">Почта</h6>
                                 <input type="text" placeholder="email" name="email" />
                                 <h6 style="padding:0px; margin: 0px;">Логин</h6>
-                                <input type="text" placeholder="login" name="login" />
+                                <input type="text" placeholder="Логин" name="login" />
 
                                 <h6 style="padding:0px; margin:0px;">Пароль</h6>
-                                <input type="password" placeholder="password" name="pass" />
+                                <input type="password" placeholder="Пароль" name="pass" />
                                 <h6 style="padding:0px; margin:0px;">Повторите пароль</h6>
-                                <input type="text" placeholder="repeat password" name="repeatpass" />
+                                <input type="text" placeholder="Повторите пароль" name="repeatpass" />
                                 <button name="Sign-In" style="display: block; margin: 10px auto;">РЕГИСТРАЦИЯ</button>
                             </div>
                             <!-- Включение сессии для отображения предупреждения о ошибке в вводе -->
@@ -97,6 +98,25 @@ if ($_SESSION['user']) {
                 </form>
             </div>
         </div>
+    </div>
+    <!-- баннер -->
+    <div class="first_img">
+        <button class="navigation_banner prev">&#8592</button>
+        <div class="carousel-container">
+            <div class="carousel_items">
+                <div class="carousel_item item1">
+                </div>
+                <div class="carousel_item item2">
+                </div>
+                <div class="carousel_item item3">
+                </div>
+                <div class="carousel_item item4">
+                </div>
+                <div class="carousel_item item5">
+                </div>
+            </div>
+        </div>
+        <button class="navigation_banner next">&#8594</button>
     </div>
     <div id="content"></div>
     <!-- подвал сайта -->
@@ -124,37 +144,10 @@ if ($_SESSION['user']) {
         <img src="./assets/footer/PRKLogo.png" />
         <img src="./assets/footer/VSCodeLogo.png" />
         <img src="./assets/footer/UFCLogo.png" />
-        <p>По соглашению с Bednov.V.A и Kozlov.V.V., игровая лицензия № 2024/PRK, PRKCasino находится под управлением компанией OOO “KringeAreHype”, Tankistov 46, Perm</p>
     </div>
+    <p>По соглашению с Bednov.V.A и Kozlov.V.V., игровая лицензия № 2024/PRK, PRKCasino находится под управлением компанией OOO “KringeAreHype”, Tankistov 46, Perm</p>
+    <script src="./js/Banner_Script.js"></script>
+    <script src="./js/Connecting_Pages.js"></script>
 </body>
-<script>
-    // Получаем ссылки на кнопки навигации
-    let homeButton = document.getElementById("home-button");
-    let slotsButton = document.getElementById("slots-button");
-    let liveDealersButton = document.getElementById("live-dealers-button");
-
-    // Получаем ссылку на блок div с id "content"
-    let contentDiv = document.getElementById("content");
-
-    // Обработчики нажатия кнопок навигации
-    homeButton.addEventListener("click", function() {
-        // Загрузка главной страницы
-        contentDiv.innerHTML = '<iframe src="./components/Main.html" frameborder="0" width="100%" height="1400px" scrolling="no" style="margin: 0;"></iframe>';
-    });
-
-    slotsButton.addEventListener("click", function() {
-        // Загрузка страницы со слотами
-        contentDiv.innerHTML = '<iframe src="./components/SlotsList.html" frameborder="0" width="100%" height="1400px" scrolling="no" style="margin: 0;"></iframe>';
-    });
-
-    liveDealersButton.addEventListener("click", function() {
-        // Загрузка страницы с лайв-дилерами
-        contentDiv.innerHTML = '<iframe src="./components/Live_Dealers.html" frameborder="0" width="100%" height="1400px" scrolling="no" style="margin: 0;"></iframe>';
-    });
-    // Загрузка главной страницы при загрузке страницы
-    window.addEventListener("DOMContentLoaded", function() {
-        contentDiv.innerHTML = '<iframe src="./components/Main.html" frameborder="0" width="100%" height="1400px" scrolling="no" style="margin: 0;"></iframe>';
-    });
-</script>
 
 </html>
