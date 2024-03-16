@@ -33,7 +33,7 @@ if ($_SESSION['user']) {
         <div class="div-display">
             <a href="#openModal-1" class="alignText">ВХОД</a>
             <div id="openModal-1" class="modal">
-                <form action="./components/login.php" method="post">
+                <form action="./php/login.php" method="post">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -41,7 +41,7 @@ if ($_SESSION['user']) {
                                 <a href="#close" title="Close" class="close">×</a>
                             </div>
                             <div class="modal-body">
-                                <h6 style="padding:0px; margin: 0px;">Email/Логин</h6>
+                                <h6 style="padding:0px; margin:0px;">Email/Логин</h6>
                                 <input type="text" placeholder="Логин или почта" name="login" />
 
                                 <h6 style="padding:0px; margin:0px;">Пароль</h6>
@@ -64,7 +64,7 @@ if ($_SESSION['user']) {
             </div>
             <a href="#openModal-2" class="alignText">РЕГИСТРАЦИЯ</a>
             <div id="openModal-2" class="modal">
-                <form action="/components/register.php" method="post">
+                <form action="./php/register.php" method="post">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">

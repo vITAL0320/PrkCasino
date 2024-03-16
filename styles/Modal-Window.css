@@ -57,7 +57,7 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     background-color: #214a60;
-    opacity: 0.8;
+    opacity: 0.9;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.2);
@@ -116,15 +116,13 @@ body {
 }
 /* свойства для блока, содержащего основное содержимое окна */
 .modal-body {
-
+    margin-top: 50px;
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 auto;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    padding: 15px;
     overflow: auto;
     align-self: center;
-    margin-top: 3vh;
 }
 .modal-body::-webkit-scrollbar {
     width: 0;
@@ -135,7 +133,6 @@ input {
     outline: none;
   }
 button  {
-    margin-top: 100px;
     padding: 15px;
     background: #2a6f43;
     color: #fff;

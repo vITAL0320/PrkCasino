@@ -19,7 +19,8 @@ if (empty($login) || empty($pass)) {
         $_SESSION['user'] = [
             "id" => $user['id'],
             "login" => $user['login'],
-            "email" => $user['email']
+            "email" => $user['email'],
+            "balance" => $user['balance'],
         ];
         header('Location: ../index.php');
     } else {
