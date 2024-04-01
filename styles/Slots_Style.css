@@ -1,0 +1,32 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../assets/Slots/HookSpin/Background_1.png");
+    
+}
+.slot_block {
+    background-image: url("../assets/Slots/HookSpin/Backround_1.2.png");
+    margin:5% auto;
+    max-width: 1027px;
+    width:50%;
+    height: 567px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.slot_block p {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+}
+.container_symbol {
+    background-image: url("../assets/Slots/HookSpin/Backround_1.3.png");
+    margin: 70px auto;
+    width: 68%;
+    min-width: 558px;
+    height: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

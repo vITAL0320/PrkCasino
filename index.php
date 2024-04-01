@@ -105,53 +105,7 @@ if (!$_SESSION['user']) {
     }
     ?>
   </div>
-  <!-- баннер -->
-  <div class="first_img">
-    <button class="navigation_banner prev">&#8592</button>
-    <div class="carousel-container">
-      <div class="carousel_items">
-        <div class="carousel_item item1">
-        </div>
-        <div class="carousel_item item2">
-        </div>
-        <div class="carousel_item item3">
-        </div>
-        <div class="carousel_item item4">
-        </div>
-        <div class="carousel_item item5">
-        </div>
-      </div>
-    </div>
-    <button class="navigation_banner next">&#8594</button>
-  </div>
   <div id="content"></div>
-  <!-- подвал сайта -->
-  <div class="footer">
-    <img src="./assets/footer/CringeLogo.png" />
-    <img src="./assets/footer/FakeLogo.png" />
-    <img src=" ./assets/footer/StoneIslandLogo.png" />
-    <img src="./assets/footer/PsinaLogo.png" />
-    <img src="./assets/footer/AbibasLogo.png" />
-  </div>
-  <div class="footer">
-    <img src="./assets/footer/SchweppesLogo.png " />
-    <img src="./assets/footer/YandFoofLogo.png" />
-    <img src=" ./assets/footer/FigmaLogo.png" />
-    <img src="./assets/footer/GitHubLogo.png" />
-    <img src="./assets/footer/NotionLogo.png" />
-    <img src="./assets/footer/HipeLogo.png" />
-    <img src="./assets/footer/VagnerLogo.png" />
-  </div>
-  <div class="footer">
-    <img src="./assets/footer/ChatGPTLogo.png " />
-    <img src="./assets/footer/DiscordLogo.png" />
-    <img src="./assets/footer/DomruLogo.png" />
-    <img src="./assets/footer/PolitehLogo.png" />
-    <img src="./assets/footer/PRKLogo.png" />
-    <img src="./assets/footer/VSCodeLogo.png" />
-    <img src="./assets/footer/UFCLogo.png" />
-  </div>
-  <p>По соглашению с Bednov.V.A и Kozlov.V.V., игровая лицензия № 2024/PRK, PRKCasino находится под управлением компанией OOO “KringeAreHype”, Tankistov 46, Perm</p>
   <script src="./js/Banner_Script.js"></script>
   <script src="./js/Connecting_Pages.js"></script>
 </body>

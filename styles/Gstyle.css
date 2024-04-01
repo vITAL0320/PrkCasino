@@ -107,20 +107,6 @@ a:hover {
     justify-content: center;
     background: linear-gradient(to bottom, #ac8a40, #503335, #09181e);
 }
-
-.cap-cat {
-    background-color: black;
-    color: white;
-    width: 65%;
-    margin: auto;
-}
-
-.back-cat img {
-    width: 65%;
-    margin: auto;
-    justify-content: center;
-    display: flex;
-}
 .footer {
     display: flex;
     align-items: center;
